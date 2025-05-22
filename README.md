@@ -28,11 +28,11 @@ Mantenha o Nagios limpo e ágil! Este script faz a limpeza automática do diret�
    git clone https://github.com/seu-usuario/nagios-perfdata-cleaner.git
    cd nagios-perfdata-cleaner
 
-## 💡 Sugestão
+# 💡 Sugestão
 
    Crie uma rotina usando cron dentro do seu servidor :
    
-  # Abra o cron:
+  ## Abra o cron:
   crontab -e
 
   # Adicione a configuração:
