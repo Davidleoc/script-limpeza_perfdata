@@ -33,9 +33,11 @@ Mantenha o Nagios limpo e ágil! Este script faz a limpeza automática do diret�
    Crie uma rotina usando cron dentro do seu servidor :
    
   ## Abra o cron:
+   ```bash
   crontab -e
 
   ## Adicione a configuração:
+ ```bash
    0 0 * * * /usr/local/scripts/clear_PERFDATA.sh >> /var/log/nagios/perfdata_cron.log 2>&1
 
    Este cron executa o script de limpeza do Nagios todos os dias à meia-noite.
